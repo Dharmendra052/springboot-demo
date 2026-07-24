@@ -3,6 +3,11 @@ pipeline {
     agent any
 
 
+tools {
+    jdk 'java21'
+}
+
+
     environment {
 
         AWS_REGION = "ap-south-1"
