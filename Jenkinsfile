@@ -26,7 +26,7 @@ pipeline {
             steps {
 
                 git branch: 'main',
-                url: 'https://github.com/<username>/springboot-demo.git'
+                url: 'https://github.com/Dharmendra052/springboot-demo.git'
 
             }
 
